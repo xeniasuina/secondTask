@@ -4,9 +4,9 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "RU");
 	int days, months, year, daysinyear;
-	cout << "Ââåäèòå äàòó ";
+	cout << "Введите дату ";
 	cin >> days >> months;
-	cout << "Âèñîêîñíûé ëè ãîä? 1/0 ";
+	cout << "Високосный ли год? 1/0 ";
 	cin >> year;
 	if (year == 1) {
 		daysinyear = 366;
